@@ -1,0 +1,2 @@
+# ActivitylifecyclecallbacksCompat
+Android ActivityLifecycleCallbacks Compatibility Library
