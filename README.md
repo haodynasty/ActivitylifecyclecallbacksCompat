@@ -31,7 +31,7 @@ maven
 具体使用可参考Demo实现
 
 # 如何使用
-1. Activity生命周期监听
+## 1. Activity生命周期监听
 - 使用LifecycleDispatcher.registerActivityLifecycleCallbacks(Application, ActivityLifecycleCallbacksCompat)，用于替换系统的lication.registerActivityLifecycleCallbacks(ActivityLifecycleCallbacks)方法
 - 所有的Activity都需要继承LifecycleDispatchActivity，用于替换继承的AppCompatActivity(or Activity).
 ```
@@ -86,8 +86,10 @@ public class BaseActivity extends SherlockFragmentActivity {
         }
 ```
 
-2. Fragment支持API>=11
+
+## 2. Fragment支持API>=11
 使用方法同Activity
+
 - 使用LifecycleDispatcher.registerFragmentLifecycleCallbacks(Application, FragmentLifecycleCallbacksCompat)
 - 所有的Fragment都需要继承LifecycleDispatchFragment，用于替换继承的Fragment.
 ```
