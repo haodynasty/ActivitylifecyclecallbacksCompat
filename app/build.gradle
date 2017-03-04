@@ -40,6 +40,6 @@ dependencies {
     //logger
     compile 'com.blakequ.logger:logger:latest.integration'
 
-//    compile 'com.blakequ.rsa:rsa:latest.integration'
+//    compile 'com.blakequ.android_lifecycle:android_lifecycle:latest.integration'
     compile project(':android_lifecycle')
 }

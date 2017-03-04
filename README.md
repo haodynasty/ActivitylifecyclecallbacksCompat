@@ -9,14 +9,14 @@ Android官方从API=14引入了生命周期监听回调API：[ActivityLifecycleC
 将依赖增加到APP级别的build.gradle（你也可指定版本，用[![Download][bintray_svg]][bintray_url]替换latest.integration）
 ```
 dependencies {
-    compile 'com.blakequ.rsa:rsa:latest.integration'
+    compile 'com.blakequ.android_lifecycle:android_lifecycle:latest.integration'
 }
 ```
 maven
 ```
 <dependency>
-  <groupId>com.blakequ.rsa</groupId>
-  <artifactId>rsa</artifactId>
+  <groupId>com.blakequ.android_lifecycle</groupId>
+  <artifactId>android_lifecycle</artifactId>
   <version>latest.integration</version>
   <type>pom</type>
 </dependency>
